@@ -1,4 +1,4 @@
-# Front template
+# Front
 
 Application code 
 
