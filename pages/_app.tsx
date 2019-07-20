@@ -1,7 +1,7 @@
 /* eslint-disable class-methods-use-this */
 import React from 'react';
 import App, { Container } from 'next/app';
-import { PageTransition } from 'next-page-transitions'
+import { PageTransition } from 'next-page-transitions';
 
 // Styles
 import 'normalize.css';
@@ -13,44 +13,40 @@ interface IAppState {
   events: string[];
 }
 
-class Root extends App<{}, IAppState>{
+class Root extends App<{}, IAppState> {
   constructor(props: any) {
-    super(props)
+    super(props);
     this.state = {
       loggedIn: false,
       events: [
-        "load",
-        "mousemove",
-        "mousedown",
-        "click",
-        "scroll",
-        "keypress",
-        "keydown",
-        "keyup",
-        "scroll",
-        "mouseover"
+        'load',
+        'mousemove',
+        'mousedown',
+        'click',
+        'scroll',
+        'keypress',
+        'keydown',
+        'keyup',
+        'scroll',
+        'mouseover',
       ],
-    }
-  }
-
-  public static async getInitialProps({ Component, ctx }: any) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
+    };
   }
 
   public render() {
     const { Component, pageProps, router } = this.props;
     return (
-          <Container>
-              <PageTransition timeout={300} classNames="page-transition">
-                <Component {...pageProps} key={router.route} />
-              </PageTransition>
-          </Container>
+      <Container>
+        <PageTransition
+          classNames="page-transition"
+          timeout={300}
+        >
+          <Component
+            {...pageProps}
+            key={router.route}
+          />
+        </PageTransition>
+      </Container>
     );
   }
 }

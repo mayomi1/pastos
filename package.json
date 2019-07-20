@@ -7,8 +7,8 @@
     "build": "next build",
     "dev": "NODE_ENV=development nodemon server.js",
     "lint": "eslint . --ext .js,.ts,.tsx",
-    "now-build": "next build && next export -o dist",
-    "start": "next start",
+    "now-build": "next build && next run dev",
+    "start": "next run dev",
     "start:prod": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
