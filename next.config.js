@@ -59,46 +59,6 @@ const nextConfig = {
 
     return config;
   },
-  // workboxOpts: {
-  //   clientsClaim: true,
-  //   globDirectory: '.',
-  //   globPatterns: ['build/**/*'],
-  //   modifyURLPrefix: {
-  //     'build': '/next/dist',
-  //   },
-  //   runtimeCaching: [
-  //     {
-  //       handler: 'CacheFirst',
-  //       options: {
-  //         cacheName: 'images',
-  //       },
-  //       urlPattern: /(http[s]?:\/\/.*\.(?:png|jpg|jpeg|svg))/,
-  //     },
-  //     {
-  //       handler: 'CacheFirst',
-  //       options: {
-  //         cacheName: 'fonts',
-  //       },
-  //       urlPattern: /\.(?:woff|woff2|otf|ttf)$/,
-  //     },
-  //     {
-  //       handler: 'NetworkFirst',
-  //       options: {
-  //         cacheName: 'scripts',
-  //       },
-  //       urlPattern: /\.(?:js|jsx)$/,
-  //     },
-  //     {
-  //       handler: 'NetworkFirst',
-  //       options: {
-  //         cacheName: 'html-cache',
-  //       },
-  //       urlPattern: /http[s]?:\/\/.*/,
-  //     },
-  //   ],
-  //   skipWaiting: true,
-  //   swDest: 'build/service-worker.js',
-  // },
 };
 
 module.exports = withPlugins([
