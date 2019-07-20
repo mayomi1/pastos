@@ -11,7 +11,6 @@ const sass = require('@zeit/next-sass');
 const css = require('@zeit/next-css');
 
 const nextConfig = {
-  distDir: 'build',
   target: 'serverless',
 
   /**
