@@ -105,7 +105,6 @@
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06);
-  margin-left: 8px;
 
   p {
     text-align: center;
@@ -130,6 +129,7 @@
 // drink
 
 .drink {
+  margin-left: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -141,13 +141,12 @@
 }
 
 .deliveryBox {
-  width: 650px;
+  width: 682px;
   height: 96px;
   background: #fff;
   filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.1));
   border-radius: 10px;
   margin-top: 20px;
-  margin-left: 8px;
 
   h4 {
     font-family: Montserrat;
@@ -173,9 +172,38 @@
 
 .coupon {
   background-color: #FFFFFF;
-  width: 400px;
-  height: 400px;
+  width: 682px;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.couponHeader {
+  width: 682px;
+  height: 48px;
+  background: #67023f;
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  padding: 12px;
 
 }
 
+.couponBtn {
+  width: 682px;
+  height: 64px;
+  border-radius: 4px;
+  background: #67023f;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+
+}

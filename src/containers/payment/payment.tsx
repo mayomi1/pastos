@@ -8,6 +8,7 @@ import bowlImage from "../../assets/images/bowl.png";
 import { ReactComponent as Paytm } from '../../assets/icons/paytm.svg';
 import { ReactComponent as GooglePay } from '../../assets/icons/goog.svg';
 import { ReactComponent as AmazonPay } from '../../assets/icons/amazon.svg';
+import Link from "next/link";
 
 const Payment: React.SFC<{}> = () => {
   return (
@@ -110,7 +111,10 @@ const Payment: React.SFC<{}> = () => {
               </div>
             </div>
 
-            <button className={styles.payNow}>Pay Now</button>
+
+            <Link href="/thankyou">
+              <button className={styles.payNow}>Pay Now</button>
+            </Link>
 
 
           </div>

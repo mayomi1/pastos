@@ -9,6 +9,7 @@ import styles from './yourCart.scss';
 
 import Button from '../../components/Button';
 import { ButtonTypes } from '../../components/Button/Button';
+import Link from "next/link";
 
 const YourCart: React.SFC<{}> = () => {
   return (
@@ -21,12 +22,14 @@ const YourCart: React.SFC<{}> = () => {
         <section className={styles.cartWrapper}>
 
           <div>
-            <Button
-              className={styles.addBtn}
-              type={ButtonTypes.primary}
-            >
-              Add pasta
-            </Button>
+            <Link href="/">
+              <Button
+                className={styles.addBtn}
+                type={ButtonTypes.primary}
+              >
+                Add pasta
+              </Button>
+            </Link>
 
             {/* Card 1 */}
             <div className={styles.cartCard}>
@@ -41,7 +44,9 @@ const YourCart: React.SFC<{}> = () => {
 
                   <div className={styles.cartCardMoney}>
                     <span>250</span>
-                    <button className={styles.cartCardFullBtn}>Full</button>
+                    <Link href="/my-order">
+                      <button className={styles.cartCardFullBtn}>Full</button>
+                    </Link>
                   </div>
                 </div>
 
@@ -63,7 +68,9 @@ const YourCart: React.SFC<{}> = () => {
                 </div>
 
                 <div>
-                  <button className={styles.editBtn}>Edit pasta</button>
+                  <Link href="/edit-pasta">
+                    <button className={styles.editBtn}>Edit pasta</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,7 +112,9 @@ const YourCart: React.SFC<{}> = () => {
                 </div>
 
                 <div>
-                  <button className={styles.editBtn}>Edit pasta</button>
+                  <Link href="/edit-pasta">
+                    <button className={styles.editBtn}>Edit pasta</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -159,26 +168,27 @@ const YourCart: React.SFC<{}> = () => {
                 <p>1912, Cusp Studios, Greenwood City, Sector 45 Gurgaon</p>
               </div>
 
+              <br />
               <div className={styles.coupon}>
-                <div>Apply coupons</div>
+                <div className={styles.couponHeader}>Apply coupons</div>
+                <div>
+                  <ul>
+                    <li>Item total</li>
+                    <li>Packing & shipping charges</li>
+                    <li>Taxes & charges</li>
+                    <li>Discount</li>
+                    <li>Grand Total</li>
+                  </ul>
 
-                <ul>
-                  <li>Item total</li>
-                  <li>Packing & shipping charges</li>
-                  <li>Taxes & charges</li>
-                  <li>Discount</li>
-                  <li>Grand Total</li>
-                </ul>
-
-                <ul>
-                  <li>200.00</li>
-                  <li>20.50</li>
-                  <li>20.50</li>
-                  <li>20.50</li>
-                  <li>222.50</li>
-                </ul>
-
-                <button>Process</button>
+                  <ul>
+                    <li>200.00</li>
+                    <li>20.50</li>
+                    <li>20.50</li>
+                    <li>20.50</li>
+                    <li>222.50</li>
+                  </ul>
+                </div>
+                <Link href="/payment"><button className={styles.couponBtn}>Process</button></Link>
               </div>
 
 
