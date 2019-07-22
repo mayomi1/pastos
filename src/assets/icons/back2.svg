@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128.628" height="128.628" viewBox="0 0 128.628 128.628">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="128.628" height="128.628" fill="none"/>
+    </clipPath>
+    <filter id="Ellipse_91" x="0" y="0" width="128.628" height="128.628" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_26_1" data-name="Component 26 – 1" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_91)">
+      <circle id="Ellipse_91-2" data-name="Ellipse 91" cx="34.314" cy="34.314" r="34.314" transform="translate(30 29)" fill="#fff"/>
+    </g>
+    <g id="left-arrow" transform="translate(43.726 48.216)">
+      <g id="Group_158" data-name="Group 158" transform="translate(0 13.721)">
+        <g id="Group_157" data-name="Group 157" transform="translate(0 0)">
+          <path id="Path_170" data-name="Path 170" d="M38.2,235.318H1.608a1.608,1.608,0,1,0,0,3.216H38.2a1.608,1.608,0,1,0,0-3.216Z" transform="translate(0 -235.318)"/>
+        </g>
+      </g>
+      <g id="Group_160" data-name="Group 160" transform="translate(0 0)">
+        <g id="Group_159" data-name="Group 159">
+          <path id="Path_171" data-name="Path 171" d="M3.882,74.158,16.466,61.575A1.608,1.608,0,1,0,14.192,59.3L.471,73.021a1.608,1.608,0,0,0,0,2.274l13.721,13.72a1.608,1.608,0,1,0,2.274-2.274Z" transform="translate(0 -58.83)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

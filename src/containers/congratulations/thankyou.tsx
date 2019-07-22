@@ -2,12 +2,15 @@ import React from 'react';
 import sharedStyles from "../shared.scss";
 import cartStyles from "../yourCart/yourCart.scss";
 import styles from './congrat.scss';
+import {ReactComponent as BackLogo} from "../../assets/icons/back2.svg";
+import Link from "next/link";
 
 const ThankYou: React.SFC<{}> = () => {
   return (
     <div className={sharedStyles.container}>
       <div className={sharedStyles.wrapper}>
         <div className={sharedStyles.header}>
+          <Link href="/"><BackLogo /></Link>
           Thank you for
           ordering with us
         </div>

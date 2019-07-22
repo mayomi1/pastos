@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from 'containers/congratulations/congratulations';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/congratulations.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,4CAAxB","sourcesContent":["export { default } from 'containers/congratulations/congratulations';\n"]},"metadata":{},"sourceType":"module"}

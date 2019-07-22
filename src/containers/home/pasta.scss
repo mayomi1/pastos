@@ -4,9 +4,17 @@
   height: 100vh;
 }
 
+.backLogo {
+  position: absolute;
+}
+
 .sideImage {
   bottom: 0;
   //position: absolute;
+
+  img {
+    height: 100vh;
+  }
 }
 
 .wrapper {
@@ -66,27 +74,27 @@
 
   &One {
     position: absolute;
-    left: 350px;
+    left: 390px;
     width: 10px;
-    top: 0px;
+    top: 12px;
   }
 
   &Two {
     position: absolute;
-    left: 490px;
+    left: 500px;
     top: 90px;
   }
 
   &Three {
     position: absolute;
-    left: 530px;
+    left: 600px;
     top: 250px;
   }
 
   &Four {
     position: absolute;
     left: 490px;
-    bottom: 100px;
+    bottom: 150px;
   }
 
   &Five {
@@ -100,7 +108,6 @@
   text-align: left;
   background-color: #FFFFFF;
   width: 300px;
-  height: 300px;
 
   padding: 20px 15px 0 5px;
 

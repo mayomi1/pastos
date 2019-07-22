@@ -81,8 +81,8 @@
 }
 
 .incrementBody {
-  font-size: 21px;
-  width: 70px;
+  font-size: 18px;
+  width: 100px;
   height: 31px;
   border-radius: 50px;
   color: #FFFFFF;
@@ -90,7 +90,7 @@
 }
 
 .incrementBtn {
-  width: 30px;
+  width: 40px;
   height: 31px;
   background: transparent;
   color: #FFFFFF;
@@ -162,7 +162,6 @@
     font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
     color: #0b0b0b;
     opacity: 0.87;
     margin: 0;
@@ -206,4 +205,15 @@
   text-align: center;
   color: #fff;
 
+}
+
+.couponsItems {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    li {
+      list-style: none;
+    }
+  }
 }

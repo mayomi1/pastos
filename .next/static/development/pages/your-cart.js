@@ -9959,6 +9959,92 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/icons/back2.svg":
+/*!************************************!*\
+  !*** ./src/assets/icons/back2.svg ***!
+  \************************************/
+/*! exports provided: default, ReactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return SvgBack2; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("defs", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("clipPath", {
+  id: "back2_svg__a"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  fill: "none",
+  d: "M0 0h128.628v128.628H0z"
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("filter", {
+  id: "back2_svg__b",
+  x: 0,
+  y: 0,
+  width: 128.628,
+  height: 128.628,
+  filterUnits: "userSpaceOnUse"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("feOffset", {
+  dy: 1
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("feGaussianBlur", {
+  stdDeviation: 10,
+  result: "blur"
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("feFlood", {
+  floodOpacity: 0.141
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("feComposite", {
+  operator: "in",
+  in2: "blur"
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("feComposite", {
+  "in": "SourceGraphic"
+})));
+
+var _ref2 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  "data-name": "Component 26 \\u2013 1",
+  clipPath: "url(#back2_svg__a)"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  filter: "url(#back2_svg__b)"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+  "data-name": "Ellipse 91",
+  cx: 34.314,
+  cy: 34.314,
+  r: 34.314,
+  transform: "translate(30 29)",
+  fill: "#fff"
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  "data-name": "Group 158"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  "data-name": "Group 157"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  "data-name": "Path 170",
+  d: "M81.926 61.937H45.334a1.608 1.608 0 1 0 0 3.216h36.592a1.608 1.608 0 1 0 0-3.216z"
+}))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  "data-name": "Group 160"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+  "data-name": "Group 159"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  "data-name": "Path 171",
+  d: "M47.608 63.544l12.584-12.583a1.608 1.608 0 1 0-2.274-2.275L44.197 62.407a1.608 1.608 0 0 0 0 2.274l13.721 13.72a1.608 1.608 0 1 0 2.274-2.274z"
+}))));
+
+var SvgBack2 = function SvgBack2(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
+    width: 128.628,
+    height: 128.628
+  }, props), _ref, _ref2);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTI4LjYyOCIgaGVpZ2h0PSIxMjguNjI4IiB2aWV3Qm94PSIwIDAgMTI4LjYyOCAxMjguNjI4Ij4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEyOC42MjgiIGhlaWdodD0iMTI4LjYyOCIgZmlsbD0ibm9uZSIvPgogICAgPC9jbGlwUGF0aD4KICAgIDxmaWx0ZXIgaWQ9IkVsbGlwc2VfOTEiIHg9IjAiIHk9IjAiIHdpZHRoPSIxMjguNjI4IiBoZWlnaHQ9IjEyOC42MjgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxmZU9mZnNldCBkeT0iMSIgaW5wdXQ9IlNvdXJjZUFscGhhIi8+CiAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEwIiByZXN1bHQ9ImJsdXIiLz4KICAgICAgPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMC4xNDEiLz4KICAgICAgPGZlQ29tcG9zaXRlIG9wZXJhdG9yPSJpbiIgaW4yPSJibHVyIi8+CiAgICAgIDxmZUNvbXBvc2l0ZSBpbj0iU291cmNlR3JhcGhpYyIvPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxnIGlkPSJDb21wb25lbnRfMjZfMSIgZGF0YS1uYW1lPSJDb21wb25lbnQgMjYg4oCTIDEiIGNsaXAtcGF0aD0idXJsKCNjbGlwLXBhdGgpIj4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDEsIDAsIDAsIDEsIDAsIDApIiBmaWx0ZXI9InVybCgjRWxsaXBzZV85MSkiPgogICAgICA8Y2lyY2xlIGlkPSJFbGxpcHNlXzkxLTIiIGRhdGEtbmFtZT0iRWxsaXBzZSA5MSIgY3g9IjM0LjMxNCIgY3k9IjM0LjMxNCIgcj0iMzQuMzE0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMCAyOSkiIGZpbGw9IiNmZmYiLz4KICAgIDwvZz4KICAgIDxnIGlkPSJsZWZ0LWFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0My43MjYgNDguMjE2KSI+CiAgICAgIDxnIGlkPSJHcm91cF8xNTgiIGRhdGEtbmFtZT0iR3JvdXAgMTU4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEzLjcyMSkiPgogICAgICAgIDxnIGlkPSJHcm91cF8xNTciIGRhdGEtbmFtZT0iR3JvdXAgMTU3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj4KICAgICAgICAgIDxwYXRoIGlkPSJQYXRoXzE3MCIgZGF0YS1uYW1lPSJQYXRoIDE3MCIgZD0iTTM4LjIsMjM1LjMxOEgxLjYwOGExLjYwOCwxLjYwOCwwLDEsMCwwLDMuMjE2SDM4LjJhMS42MDgsMS42MDgsMCwxLDAsMC0zLjIxNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIzNS4zMTgpIi8+CiAgICAgICAgPC9nPgogICAgICA8L2c+CiAgICAgIDxnIGlkPSJHcm91cF8xNjAiIGRhdGEtbmFtZT0iR3JvdXAgMTYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj4KICAgICAgICA8ZyBpZD0iR3JvdXBfMTU5IiBkYXRhLW5hbWU9Ikdyb3VwIDE1OSI+CiAgICAgICAgICA8cGF0aCBpZD0iUGF0aF8xNzEiIGRhdGEtbmFtZT0iUGF0aCAxNzEiIGQ9Ik0zLjg4Miw3NC4xNTgsMTYuNDY2LDYxLjU3NUExLjYwOCwxLjYwOCwwLDEsMCwxNC4xOTIsNTkuM0wuNDcxLDczLjAyMWExLjYwOCwxLjYwOCwwLDAsMCwwLDIuMjc0bDEzLjcyMSwxMy43MmExLjYwOCwxLjYwOCwwLDEsMCwyLjI3NC0yLjI3NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTU4LjgzKSIvPgogICAgICAgIDwvZz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==");
+
+
+/***/ }),
+
 /***/ "./src/assets/icons/pin.svg":
 /*!**********************************!*\
   !*** ./src/assets/icons/pin.svg ***!
@@ -10127,21 +10213,24 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! assets/images/bowl.png */ "./src/assets/images/bowl.png");
-/* harmony import */ var assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/images/choco.png */ "./src/assets/images/choco.png");
-/* harmony import */ var assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/pin.svg */ "./src/assets/icons/pin.svg");
-/* harmony import */ var _shared_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../shared.scss */ "./src/containers/shared.scss");
-/* harmony import */ var _shared_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_shared_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _yourCart_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./yourCart.scss */ "./src/containers/yourCart/yourCart.scss");
-/* harmony import */ var _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_yourCart_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Button */ "./src/components/Button/index.ts");
-/* harmony import */ var _components_Button_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Button/Button */ "./src/components/Button/Button.tsx");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/images/bowl.png */ "./src/assets/images/bowl.png");
+/* harmony import */ var assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! assets/images/choco.png */ "./src/assets/images/choco.png");
+/* harmony import */ var assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/pin.svg */ "./src/assets/icons/pin.svg");
+/* harmony import */ var _shared_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../shared.scss */ "./src/containers/shared.scss");
+/* harmony import */ var _shared_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_shared_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _yourCart_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./yourCart.scss */ "./src/containers/yourCart/yourCart.scss");
+/* harmony import */ var _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_yourCart_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Button */ "./src/components/Button/index.ts");
+/* harmony import */ var _components_Button_Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/Button/Button */ "./src/components/Button/Button.tsx");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_icons_back2_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/icons/back2.svg */ "./src/assets/icons/back2.svg");
+
 var _jsxFileName = "/Users/mayomi/Desktop/front-temp/src/containers/yourCart/yourCart.tsx";
 
 
@@ -10153,600 +10242,651 @@ var _jsxFileName = "/Users/mayomi/Desktop/front-temp/src/containers/yourCart/you
 
 
 
+
 var YourCart = function YourCart() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _shared_scss__WEBPACK_IMPORTED_MODULE_4___default.a.container,
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(1),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      count = _useState2[0],
+      setCount = _useState2[1];
+
+  var increment = function increment() {
+    if (count < 20) {
+      setCount(count + 1);
+    }
+  };
+
+  var decrement = function decrement() {
+    if (count > 1) {
+      setCount(count - 1);
+    }
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _shared_scss__WEBPACK_IMPORTED_MODULE_5___default.a.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _shared_scss__WEBPACK_IMPORTED_MODULE_4___default.a.wrapper,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _shared_scss__WEBPACK_IMPORTED_MODULE_5___default.a.wrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 32
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.header,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _shared_scss__WEBPACK_IMPORTED_MODULE_5___default.a.header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 33
     },
     __self: this
-  }, "Your cart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.addBtn,
-    type: _components_Button_Button__WEBPACK_IMPORTED_MODULE_7__["ButtonTypes"].primary,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Add pasta")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCard,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_assets_icons_back2_svg__WEBPACK_IMPORTED_MODULE_10__["ReactComponent"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardWrap,
+  })), "Your cart"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cart,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 42
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 43
     },
     __self: this
-  }, "Alfredo Spagetti"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.addBtn,
+    type: _components_Button_Button__WEBPACK_IMPORTED_MODULE_8__["ButtonTypes"].primary,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 44
     },
     __self: this
-  }, "Broccoli, Bell pepper, Mushroom Chicken sausage, Black olives, Parsley, Farm fresh salad."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardMoney,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "250"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    href: "/my-order",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardFullBtn,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Full")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardImg,
+  }, "Add pasta")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "bowl",
-    src: assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardWrap,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cart,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 55
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardEdit,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Alfredo Spagetti"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "Broccoli, Bell pepper, Mushroom Chicken sausage, Black olives, Parsley, Farm fresh salad."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardMoney,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBody,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBtn,
+  }, "250"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    href: "/my-order",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
-  }, "-"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardFullBtn,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
-  }, "1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBtn,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, "+")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    href: "/edit-pasta",
+  }, "Full")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardImg,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.editBtn,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "bowl",
+    src: assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, "Edit pasta"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCard,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardEdit,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardWrap,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBody,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cart,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBtn,
+    onClick: function onClick() {
+      return decrement();
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }, "-"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 84
     },
     __self: this
-  }, "Alfredo Spagetti"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, count), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBtn,
+    onClick: function onClick() {
+      return increment();
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, "Broccoli, Bell pepper, Mushroom Chicken sausage, Black olives, Parsley, Farm fresh salad."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardMoney,
+  }, "+")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 88
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    href: "/edit-pasta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 89
     },
     __self: this
-  }, "250"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardFullBtn,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.editBtn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 90
     },
     __self: this
-  }, "Full"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardImg,
+  }, "Edit pasta"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "bowl",
-    src: assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCard,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 99
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardWrap,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 100
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.cartCardEdit,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cart,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 101
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBody,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 102
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBtn,
+  }, "Alfredo Spagetti"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Broccoli, Bell pepper, Mushroom Chicken sausage, Black olives, Parsley, Farm fresh salad."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardMoney,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 109
     },
     __self: this
-  }, "-"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 110
     },
     __self: this
-  }, "1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.incrementBtn,
+  }, "250"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    href: "/my-order",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111
     },
     __self: this
-  }, "+")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardFullBtn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 112
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    href: "/edit-pasta",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.editBtn,
+  }, "Full")), "                  ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardImg,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 116
     },
     __self: this
-  }, "Edit pasta")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "bowl",
+    src: assets_images_bowl_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 124
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cartCardEdit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 126
     },
     __self: this
-  }, "Add drinks & desserts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drink,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBody,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 127
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkRow,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBtn,
+    onClick: function onClick() {
+      return decrement();
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 128
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCard,
+  }, "-"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 129
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "choco",
-    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+  }, "1"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.incrementBtn,
+    onClick: function onClick() {
+      return increment();
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 130
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "+")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    href: "/edit-pasta",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 134
     },
     __self: this
-  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCardFooter,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.editBtn,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 135
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_3__["ReactComponent"], {
+  }, "Edit pasta")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 143
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 144
     },
     __self: this
-  }, "250"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCard,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "choco",
-    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 142
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Add drinks & desserts"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drink,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 146
     },
     __self: this
-  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCardFooter,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkRow,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 147
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_3__["ReactComponent"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 148
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "choco",
+    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 149
     },
     __self: this
-  }, "250"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCard,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 153
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "choco",
-    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCardFooter,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 154
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_4__["ReactComponent"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 155
     },
     __self: this
-  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.drinkCardFooter,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 156
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_3__["ReactComponent"], {
+  }, "250"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 160
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "choco",
+    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 161
     },
     __self: this
-  }, "250")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.deliveryBox,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCardFooter,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 166
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_4__["ReactComponent"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 167
     },
     __self: this
-  }, "ENTER DELIVERY ADDRESS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 168
     },
     __self: this
-  }, "1912, Cusp Studios, Greenwood City, Sector 45 Gurgaon")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 171
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.coupon,
+  }, "250"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 172
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.couponHeader,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    alt: "choco",
+    src: assets_images_choco_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 173
     },
     __self: this
-  }, "Apply coupons"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176
-    },
-    __self: this
-  }, "Item total"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 177
     },
     __self: this
-  }, "Packing & shipping charges"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Dark chocolate brownie"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.drinkCardFooter,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 178
     },
     __self: this
-  }, "Taxes & charges"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_assets_icons_pin_svg__WEBPACK_IMPORTED_MODULE_4__["ReactComponent"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 179
     },
     __self: this
-  }, "Discount"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
     },
     __self: this
-  }, "Grand Total")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 184
-    },
-    __self: this
-  }, "200.00"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "250")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.deliveryBox,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 185
     },
     __self: this
-  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 186
     },
     __self: this
-  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "ENTER DELIVERY ADDRESS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 187
     },
     __self: this
-  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "1912, Cusp Studios, Greenwood City, Sector 45 Gurgaon")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 190
     },
     __self: this
-  }, "222.50"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.coupon,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.couponHeader,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 192
+    },
+    __self: this
+  }, "Apply coupons"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.couponsItems,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 194
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 195
+    },
+    __self: this
+  }, "Item total"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196
+    },
+    __self: this
+  }, "Packing & shipping charges"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197
+    },
+    __self: this
+  }, "Taxes & charges"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 198
+    },
+    __self: this
+  }, "Discount"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }, "Grand Total")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203
+    },
+    __self: this
+  }, "200.00"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204
+    },
+    __self: this
+  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205
+    },
+    __self: this
+  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 206
+    },
+    __self: this
+  }, "20.50"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207
+    },
+    __self: this
+  }, "222.50"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
     href: "/payment",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 210
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_5___default.a.couponBtn,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _yourCart_scss__WEBPACK_IMPORTED_MODULE_6___default.a.couponBtn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 210
     },
     __self: this
   }, "Process"))))))));
@@ -10782,7 +10922,7 @@ var composeClasses = function composeClasses() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fyour-cart&absolutePagePath=%2FUsers%2Fmayomi%2FDesktop%2Ffront-temp%2Fpages%2Fyour-cart.ts ***!
   \*****************************************************************************************************************************************/
@@ -10805,5 +10945,5 @@ module.exports = dll_5439202ae7e819b36e92;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=your-cart.js.map

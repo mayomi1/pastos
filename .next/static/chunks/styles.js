@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563722756201");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838360495");
           });
       }
     }
@@ -67,7 +67,7 @@ module.exports = {"button":"button___3_Ozh","outline":"outline___1_EsF","primary
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563724460150");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838409779");
           });
       }
     }
@@ -83,7 +83,7 @@ module.exports = {"button":"button___3_Ozh","outline":"outline___1_EsF","primary
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"background":"background___33X54","sideImage":"sideImage___2njmi","wrapper":"wrapper___2ulXD","bowlOne":"bowlOne___2bKCH","bowlTwo":"bowlTwo___3Wzbd","selectSection":"selectSection___33FuT","bottomButton":"bottomButton___swj1v","ml20":"ml20___3VdXl","sauceBowl":"sauceBowl_____RYY","sauceOne":"sauceOne___2iYY6","sauceTwo":"sauceTwo___3mBpK","sauceThree":"sauceThree___hDoc-","sauceFour":"sauceFour___1y2cN","sauceFive":"sauceFive___27ELJ","detailCard":"detailCard___3CKbL","insideCard":"insideCard___3DsA4","sideSection":"sideSection___3cqrT","sidesCard":"sidesCard___26neW"};;
+module.exports = {"background":"background___33X54","backLogo":"backLogo___Dcw1v","sideImage":"sideImage___2njmi","wrapper":"wrapper___2ulXD","bowlOne":"bowlOne___2bKCH","bowlTwo":"bowlTwo___3Wzbd","selectSection":"selectSection___33FuT","bottomButton":"bottomButton___swj1v","ml20":"ml20___3VdXl","sauceBowl":"sauceBowl_____RYY","sauceOne":"sauceOne___2iYY6","sauceTwo":"sauceTwo___3mBpK","sauceThree":"sauceThree___hDoc-","sauceFour":"sauceFour___1y2cN","sauceFive":"sauceFive___27ELJ","detailCard":"detailCard___3CKbL","insideCard":"insideCard___3DsA4","sideSection":"sideSection___3cqrT","sidesCard":"sidesCard___26neW"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -105,7 +105,45 @@ module.exports = {"background":"background___33X54","sideImage":"sideImage___2nj
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563727338616");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563839036154");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./src/containers/orders/order.scss":
+/*!******************************************!*\
+  !*** ./src/containers/orders/order.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"orderCard":"orderCard___3GzCE","orderDetails":"orderDetails___2Cgji","break":"break___1PVPX","orderbtn":"orderbtn___1K5kz","deliveryText":"deliveryText___1XMt0","orderSummary":"orderSummary___JOONW","orderSummaryCard":"orderSummaryCard___1cpdm"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838726486");
           });
       }
     }
@@ -143,7 +181,7 @@ module.exports = {"header":"header___2i5If","container":"container___2O36V","wra
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563722996212");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838434688");
           });
       }
     }
@@ -159,7 +197,7 @@ module.exports = {"header":"header___2i5If","container":"container___2O36V","wra
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"header":"header___2cG0y","cartWrapper":"cartWrapper___13kNv","addBtn":"addBtn___1SNIT","cartCard":"cartCard___1sA7W","cartCardMoney":"cartCardMoney___27CKJ","cartCardWrap":"cartCardWrap___NMI7V","cartCardImg":"cartCardImg___3xsRT","cartCardFullBtn":"cartCardFullBtn___V4vA5","cartCardEdit":"cartCardEdit___1S4LV","editBtn":"editBtn___3Ea3J","incrementBody":"incrementBody___3BdFN","incrementBtn":"incrementBtn___2CZK4","drinkCard":"drinkCard___HNno7","drinkCardFooter":"drinkCardFooter___2bV3t","drink":"drink___3WG6b","drinkRow":"drinkRow___1PSXj","deliveryBox":"deliveryBox___1n7XI","coupon":"coupon___YM4TP","couponHeader":"couponHeader___141n6","couponBtn":"couponBtn___1QJ2v"};;
+module.exports = {"header":"header___2cG0y","cartWrapper":"cartWrapper___13kNv","addBtn":"addBtn___1SNIT","cartCard":"cartCard___1sA7W","cartCardMoney":"cartCardMoney___27CKJ","cartCardWrap":"cartCardWrap___NMI7V","cartCardImg":"cartCardImg___3xsRT","cartCardFullBtn":"cartCardFullBtn___V4vA5","cartCardEdit":"cartCardEdit___1S4LV","editBtn":"editBtn___3Ea3J","incrementBody":"incrementBody___3BdFN","incrementBtn":"incrementBtn___2CZK4","drinkCard":"drinkCard___HNno7","drinkCardFooter":"drinkCardFooter___2bV3t","drink":"drink___3WG6b","drinkRow":"drinkRow___1PSXj","deliveryBox":"deliveryBox___1n7XI","coupon":"coupon___YM4TP","couponHeader":"couponHeader___141n6","couponBtn":"couponBtn___1QJ2v","couponsItems":"couponsItems___2PSyi"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -181,7 +219,7 @@ module.exports = {"header":"header___2cG0y","cartWrapper":"cartWrapper___13kNv",
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563724983029");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838434692");
           });
       }
     }
@@ -218,7 +256,7 @@ module.exports = {"header":"header___2cG0y","cartWrapper":"cartWrapper___13kNv",
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1563722760624");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563838365099");
           });
       }
     }

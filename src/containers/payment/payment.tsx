@@ -9,12 +9,16 @@ import { ReactComponent as Paytm } from '../../assets/icons/paytm.svg';
 import { ReactComponent as GooglePay } from '../../assets/icons/goog.svg';
 import { ReactComponent as AmazonPay } from '../../assets/icons/amazon.svg';
 import Link from "next/link";
+import {ReactComponent as BackLogo} from "../../assets/icons/back2.svg";
 
 const Payment: React.SFC<{}> = () => {
   return (
     <div className={sharedStyles.container}>
       <div className={sharedStyles.wrapper}>
         <div className={styles.header}>
+          <Link href="my-order">
+            <BackLogo />
+          </Link>
           Your Payment
         </div>
 
@@ -34,7 +38,9 @@ const Payment: React.SFC<{}> = () => {
 
                   <div className={cartStyles.cartCardMoney}>
                     <span>250</span>
-                    <button className={cartStyles.cartCardFullBtn}>Full</button>
+                    <Link href="/my-order">
+                      <button className={cartStyles.cartCardFullBtn}>Full</button>
+                    </Link>
                   </div>
                 </div>
 
@@ -61,7 +67,9 @@ const Payment: React.SFC<{}> = () => {
 
                   <div className={cartStyles.cartCardMoney}>
                     <span>250</span>
-                    <button className={cartStyles.cartCardFullBtn}>Full</button>
+                    <Link href="/my-order">
+                      <button className={cartStyles.cartCardFullBtn}>Full</button>
+                    </Link>
                   </div>
                 </div>
 
@@ -116,14 +124,9 @@ const Payment: React.SFC<{}> = () => {
               <button className={styles.payNow}>Pay Now</button>
             </Link>
 
-
           </div>
 
-
         </div>
-
-
-
 
       </div>
     </div>

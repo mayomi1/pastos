@@ -3,12 +3,15 @@ import sharedStyles from "../shared.scss";
 import styles from './address.scss';
 import Button from "../../components/Button";
 import {ButtonTypes} from "../../components/Button/Button";
+import {ReactComponent as BackLogo} from "../../assets/icons/back2.svg";
+import Link from "next/link";
 
 const AddAddress: React.SFC<{}> = () => {
   return (
     <div className={sharedStyles.container}>
       <div className={sharedStyles.wrapper}>
         <div className={sharedStyles.header}>
+          <Link href="/">BackLogo /> </Link>
           Add Address
         </div>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import bowlImage from 'assets/images/bowl.png';
 import choco from 'assets/images/choco.png';
@@ -10,12 +10,30 @@ import styles from './yourCart.scss';
 import Button from '../../components/Button';
 import { ButtonTypes } from '../../components/Button/Button';
 import Link from "next/link";
+import {ReactComponent as BackLogo} from "../../assets/icons/back2.svg";
 
 const YourCart: React.SFC<{}> = () => {
+  const [count, setCount] = useState(1);
+
+  const increment = () => {
+    if (count < 20) {
+      setCount(count + 1);
+    }
+  }
+
+  const decrement = () => {
+    if (count > 1) {
+      setCount(count - 1);
+    }
+  }
+
   return (
     <div className={sharedStyles.container}>
       <div className={sharedStyles.wrapper}>
-        <div className={styles.header}>
+        <div className={sharedStyles.header}>
+          <Link href="/">
+            <BackLogo />
+          </Link>
           Your cart
         </div>
 
@@ -62,9 +80,9 @@ const YourCart: React.SFC<{}> = () => {
 
               <div className={styles.cartCardEdit}>
                 <div className={styles.incrementBody}>
-                  <button className={styles.incrementBtn}>-</button>
-                  <span>1</span>
-                  <button className={styles.incrementBtn}>+</button>
+                  <button className={styles.incrementBtn} onClick={() => decrement()}>-</button>
+                  <span>{count}</span>
+                  <button className={styles.incrementBtn} onClick={() => increment()}>+</button>
                 </div>
 
                 <div>
@@ -90,8 +108,9 @@ const YourCart: React.SFC<{}> = () => {
 
                   <div className={styles.cartCardMoney}>
                     <span>250</span>
-                    <button className={styles.cartCardFullBtn}>Full</button>
-                  </div>
+                    <Link href="/my-order">
+                      <button className={styles.cartCardFullBtn}>Full</button>
+                    </Link>                  </div>
                 </div>
 
                 <div className={styles.cartCardImg}>
@@ -106,9 +125,9 @@ const YourCart: React.SFC<{}> = () => {
 
               <div className={styles.cartCardEdit}>
                 <div className={styles.incrementBody}>
-                  <button className={styles.incrementBtn}>-</button>
+                  <button className={styles.incrementBtn} onClick={() => decrement()}>-</button>
                   <span>1</span>
-                  <button className={styles.incrementBtn}>+</button>
+                  <button className={styles.incrementBtn} onClick={() => increment()}>+</button>
                 </div>
 
                 <div>
@@ -171,7 +190,7 @@ const YourCart: React.SFC<{}> = () => {
               <br />
               <div className={styles.coupon}>
                 <div className={styles.couponHeader}>Apply coupons</div>
-                <div>
+                <div className={styles.couponsItems}>
                   <ul>
                     <li>Item total</li>
                     <li>Packing & shipping charges</li>
