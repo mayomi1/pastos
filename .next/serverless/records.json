@@ -1,0 +1,37 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "pages/_error.js": 0,
+      "pages/about.js": 1,
+      "pages/address/add.js": 2,
+      "pages/congratulations.js": 3,
+      "pages/contact.js": 4,
+      "pages/edit-pasta.js": 5,
+      "pages/index.js": 6,
+      "pages/my-order.js": 7,
+      "pages/order-summary.js": 8,
+      "pages/payment.js": 9,
+      "pages/thankyou.js": 10,
+      "pages/your-cart.js": 11
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
