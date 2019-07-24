@@ -11,7 +11,6 @@ const AddAddress: React.SFC<{}> = () => {
     <div className={sharedStyles.container}>
       <div className={sharedStyles.wrapper}>
         <div className={sharedStyles.header}>
-          <Link href="/">BackLogo /> </Link>
           Add Address
         </div>
 

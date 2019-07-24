@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from 'containers/home/home';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/index.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,sBAAxB","sourcesContent":["export { default } from 'containers/home/home';\n"]},"metadata":{},"sourceType":"module"}

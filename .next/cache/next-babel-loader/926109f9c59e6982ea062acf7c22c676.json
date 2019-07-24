@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from 'containers/manageAddress/manageAddress';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/address/index.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,wCAAxB","sourcesContent":["export { default } from 'containers/manageAddress/manageAddress';\n"]},"metadata":{},"sourceType":"module"}

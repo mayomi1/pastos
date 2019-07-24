@@ -15,3 +15,52 @@
 .wrapper {
   padding-top: 50px;
 }
+
+.addressWrap {
+  padding-top: 20px;
+}
+
+.content1 {
+  width: 520px;
+  padding: 20px;
+  background: #fff;
+  filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.12)) !important;
+
+  p {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #67023f;
+    width: 500px;
+
+  }
+
+  p h4 h3{
+    margin: 0;
+    padding: 0;
+  }
+
+ }
+
+.homeBtn {
+  width: 89px;
+  height: 35px;
+  border-radius: 4px;
+  background: #67023f;
+  color: #FFFFFF;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.addressBtnTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+
+.addressBtn {
+  width: 182px;
+  height: 46px;
+  background: #67023f;
+  color: #fff;
+  filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.2));
+}

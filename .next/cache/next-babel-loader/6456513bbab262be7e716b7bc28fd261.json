@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from 'containers/payment/payment';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/payment.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,4BAAxB","sourcesContent":["export { default } from 'containers/payment/payment';\n"]},"metadata":{},"sourceType":"module"}

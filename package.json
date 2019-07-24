@@ -28,6 +28,7 @@
     "next-routes": "^1.4.2",
     "normalize.css": "^8.0.1",
     "react": "^16.8.4",
+    "react-cool-tabs": "^1.1.6",
     "react-dom": "^16.8.4",
     "react-transition-group": "^4.1.1",
     "typescript": "^3.3.3333"

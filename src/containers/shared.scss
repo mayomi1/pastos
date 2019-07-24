@@ -16,3 +16,9 @@
   margin: 0 auto;
   padding-top: 50px;
 }
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

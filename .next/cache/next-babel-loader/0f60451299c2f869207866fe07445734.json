@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from 'containers/editPasta/editPasta';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/edit-pasta.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,gCAAxB","sourcesContent":["export { default } from 'containers/editPasta/editPasta';\n"]},"metadata":{},"sourceType":"module"}

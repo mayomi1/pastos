@@ -464,384 +464,61 @@ button {
   margin: 0 auto;
   padding-top: 50px; }
 
-.header___2cG0y {
-  font-size: 48px;
-  font-weight: bold; }
-
-.cartWrapper___13kNv {
-  display: flex;
-  justify-content: space-between; }
-
-.addBtn___1SNIT {
-  padding: 8px 10px !important;
-  font-size: 16px !important;
-  font-weight: lighter !important;
-  margin-bottom: 15px;
-  border-radius: 10px !important; }
-
-.cartCard___1sA7W {
-  padding: 25px;
-  width: 520px;
-  background: #fff;
-  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.08)); }
-  .cartCard___1sA7W h4 {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 24px;
-    color: #000; }
-  .cartCard___1sA7W p {
-    font-family: Montserrat;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: left;
-    color: #000;
-    opacity: 0.8; }
-  .cartCardMoney___27CKJ {
-    display: flex;
-    justify-content: space-between; }
-  .cartCardWrap___NMI7V {
-    display: flex; }
-  .cartCardImg___3xsRT img {
-    width: 200px;
-    height: 200px; }
-
-.cartCardFullBtn___V4vA5 {
-  width: 79px;
-  height: 29px;
-  border-radius: 2px;
-  background: #000;
-  color: #FFFFFF;
-  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1); }
-
-.cartCardEdit___1S4LV {
-  display: flex;
-  justify-content: space-between; }
-
-.editBtn___3Ea3J {
-  width: 156px;
-  height: 38px;
-  border-radius: 22px;
-  background: #fff;
-  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.16);
-  border: transparent; }
-
-.incrementBody___3BdFN {
-  font-size: 18px;
-  width: 100px;
-  height: 31px;
-  border-radius: 50px;
-  color: #FFFFFF;
-  background: #1d1d1d; }
-
-.incrementBtn___2CZK4 {
-  width: 40px;
-  height: 31px;
-  background: transparent;
-  color: #FFFFFF;
-  border: 80px; }
-
-.drinkCard___HNno7 {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06); }
-  .drinkCard___HNno7 p {
-    text-align: center;
-    padding: 0;
-    margin: 0; }
-
-.drinkCardFooter___2bV3t {
+.col___2DdBG {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #000;
-  opacity: 0.87; }
-
-.drink___3WG6b {
-  margin-left: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column; }
-
-.drinkRow___1PSXj {
-  display: flex;
-  justify-content: space-between; }
-
-.deliveryBox___1n7XI {
-  width: 682px;
-  height: 96px;
-  background: #fff;
-  filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.1));
-  border-radius: 10px;
-  margin-top: 20px; }
-  .deliveryBox___1n7XI h4 {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: left;
-    color: #67023f;
-    margin: 0;
-    padding: 8px; }
-  .deliveryBox___1n7XI p {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    color: #0b0b0b;
-    opacity: 0.87;
-    margin: 0;
-    padding: 5px; }
-
-.coupon___YM4TP {
-  background-color: #FFFFFF;
-  width: 682px;
-  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-direction: column; }
-
-.couponHeader___141n6 {
-  width: 682px;
-  height: 48px;
-  background: #67023f;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: left;
-  color: #fff;
-  padding: 12px; }
-
-.couponBtn___1QJ2v {
-  width: 682px;
-  height: 64px;
-  border-radius: 4px;
-  background: #67023f;
-  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 28px;
-  text-align: center;
-  color: #fff; }
-
-.couponsItems___2PSyi {
-  display: flex;
-  justify-content: space-between; }
-  .couponsItems___2PSyi ul li {
-    list-style: none; }
-
-.orderCard___3GzCE {
-  width: 498.58px;
-  background: #fff;
-  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.12));
-  padding: 20px;
-  margin-top: 20px; }
-  .orderCard___3GzCE label {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: left;
-    color: #232323;
-    opacity: 0.54;
-    padding: 0;
-    margin: 0; }
-  .orderCard___3GzCE p {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    color: #232323;
-    padding: 0;
-    margin: 0; }
-
-.orderDetails___2Cgji {
-  display: flex;
-  justify-content: space-between; }
-
-.break___1PVPX {
-  margin: 10px 0; }
-
-.orderbtn___1K5kz {
-  height: 35px;
-  background: #67023f;
-  filter: drop-shadow(1px 2px 6px rgba(0, 0, 0, 0.25));
-  border: transparent;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: left;
-  color: #fff; }
-
-.deliveryText___1XMt0 {
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: left;
-  color: #0cb800 !important; }
-
-.orderSummary___JOONW {
-  padding-top: 50px; }
-  .orderSummary___JOONW label {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: left;
-    color: #232323;
-    opacity: 0.54; }
-  .orderSummary___JOONW p {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    color: #232323;
-    margin: 0; }
-
-.orderSummaryCard___1cpdm {
-  width: 619px;
-  background: #67023f;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px; }
-  .orderSummaryCard___1cpdm label {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 20px;
-    color: #fff; }
-  .orderSummaryCard___1cpdm p {
-    font-family: Montserrat;
-    font-weight: normal;
-    font-size: 18px;
-    color: #fff;
-    margin: 0; }
-
-.background___33X54 {
-  background-color: #FFE195;
-  width: 100vw;
-  height: 100vh; }
-
-.backLogo___Dcw1v {
-  position: absolute; }
-
-.sideImage___2njmi {
-  bottom: 0; }
-  .sideImage___2njmi img {
-    height: 100vh; }
-
-.wrapper___2ulXD {
-  display: flex;
-  justify-content: space-between; }
-
-.bowlOne___2bKCH {
-  position: relative;
-  left: 20px;
-  top: 90px; }
-  .bowlOne___2bKCH img {
-    width: 50%;
-    height: 50%; }
-
-.bowlTwo___3Wzbd {
-  position: relative;
-  left: 20px;
-  top: 40px; }
-  .bowlTwo___3Wzbd img {
-    width: 60%;
-    height: 60%; }
-
-.selectSection___33FuT {
-  display: flex;
-  text-align: center;
-  flex-basis: 40%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
-
-.bottomButton___swj1v {
-  display: flex;
-  justify-content: space-around; }
-
-.ml20___3VdXl {
-  margin-left: 20px; }
-
-.sauceBowl_____RYY {
-  position: absolute;
-  left: 100px;
-  top: 110px; }
-
-.sauceOne___2iYY6 {
-  position: absolute;
-  left: 390px;
-  width: 10px;
-  top: 12px; }
-
-.sauceTwo___3mBpK {
-  position: absolute;
-  left: 500px;
-  top: 90px; }
-
-.sauceThree___hDoc- {
-  position: absolute;
-  left: 600px;
-  top: 250px; }
-
-.sauceFour___1y2cN {
-  position: absolute;
-  left: 490px;
-  bottom: 150px; }
-
-.sauceFive___27ELJ {
-  position: absolute;
-  left: 350px;
-  bottom: 50px; }
-
-.detailCard___3CKbL {
-  text-align: left;
-  background-color: #FFFFFF;
-  width: 300px;
-  padding: 20px 15px 0 5px; }
-  .detailCard___3CKbL ul li {
-    list-style: none; }
-
-.insideCard___3DsA4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  .insideCard___3DsA4 ul li {
-    list-style: none; }
-
-.sideSection___3cqrT {
-  padding-top: 100px; }
-
-.sidesCard___26neW {
-  width: 340px;
-  height: 160px;
-  background: #e6d7b1;
-  display: flex;
   align-items: center; }
 
-.button___3_Ozh {
-  border: transparent;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 800;
-  padding: 20px 50px;
-  text-align: center;
-  text-transform: capitalize; }
-  .button___3_Ozh:focus {
-    outline: none; }
+.textInputGroup___1CJju {
+  display: flex;
+  flex-direction: column; }
+  .textInputGroup___1CJju input {
+    width: 499px;
+    height: 48px;
+    background: #fff;
+    filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.12));
+    margin: 10px 0; }
 
-.outline___1_EsF {
-  background-color: #fff;
-  color: #67023F; }
+.wrapper___11ZRG {
+  padding-top: 50px; }
 
-.primary___zYyzg {
-  background-color: #67023F;
-  border-color: #67023F;
+.addressWrap___1i4d7 {
+  padding-top: 20px; }
+
+.content1___1lAig {
+  width: 520px;
+  padding: 20px;
+  background: #fff;
+  filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.12)) !important; }
+  .content1___1lAig p {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #67023f;
+    width: 500px; }
+  .content1___1lAig p h4 h3 {
+    margin: 0;
+    padding: 0; }
+
+.homeBtn___3y-Og {
+  width: 89px;
+  height: 35px;
+  border-radius: 4px;
+  background: #67023f;
+  color: #FFFFFF;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25); }
+
+.addressBtnTop___1qC9Q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px; }
+
+.addressBtn___v6dTv {
+  width: 182px;
+  height: 46px;
+  background: #67023f;
   color: #fff;
-  padding: 20px 70px; }
+  filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.2)); }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

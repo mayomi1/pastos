@@ -9962,6 +9962,11 @@ react-app-polyfill@^0.2.2:
     raf "3.4.1"
     whatwg-fetch "3.0.0"
 
+react-cool-tabs@^1.1.6:
+  version "1.1.6"
+  resolved "https://npm.verifymeng.com/react-cool-tabs/-/react-cool-tabs-1.1.6.tgz#1005f6df35a397f7537039129f3f55b6c399a71b"
+  integrity sha512-vTsvSxM5FWIKaEkE1DyOZoqfeX4gwf8XG3lUqwv6J2JhoGjXmnneZCbNlwr7J1zsmkfl+/jruoI+0EDy9nV6MA==
+
 react-dev-utils@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-8.0.0.tgz#7c5b227a45a32ea8ff7fbc318f336cf9e2c6e34c"

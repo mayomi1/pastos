@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from 'containers/orders/myOrders';","map":{"version":3,"sources":["/Users/mayomi/Desktop/front-temp/pages/my-order.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,4BAAxB","sourcesContent":["export { default } from 'containers/orders/myOrders';\n"]},"metadata":{},"sourceType":"module"}
