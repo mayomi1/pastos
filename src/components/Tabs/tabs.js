@@ -5,6 +5,7 @@ import useConstant from 'use-constant';
 
 const TabsState = createContext();
 const Elements = createContext();
+
 export const Tabs = ({
   state: outerState,
   children,
@@ -21,6 +22,7 @@ export const Tabs = ({
     value: state,
   }, children));
 };
+
 export const useTabState = () => {
   const [activeIndex, setActive] = useContext(TabsState);
   const elements = useContext(Elements);
@@ -36,6 +38,7 @@ export const useTabState = () => {
   }), [activeIndex, onClick, tabIndex]);
   return state;
 };
+
 export const usePanelState = () => {
   const [activeIndex] = useContext(TabsState);
   const elements = useContext(Elements);
@@ -46,6 +49,7 @@ export const usePanelState = () => {
   });
   return panelIndex === activeIndex;
 };
+
 export const Tab = ({
   children,
 }) => {
@@ -57,6 +61,7 @@ export const Tab = ({
 
   return isValidElement(children) ? cloneElement(children, state) : children;
 };
+
 export const Panel = ({
   active,
   children,

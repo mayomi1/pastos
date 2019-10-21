@@ -17,6 +17,6 @@ const GenericListing: React.SFC<{}> = ({children}) => {
       </div>
     </main>
   );
-}
+};
 
 export default GenericListing;
